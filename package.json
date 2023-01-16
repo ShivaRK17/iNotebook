@@ -1,0 +1,22 @@
+{
+  "name": "inotebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"cd Backend && npm install  && cd ../Frontend && npm install && npm run build",
+    "start":"node Backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivaRK17/iNotebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivaRK17/iNotebook/issues"
+  },
+  "homepage": "https://github.com/ShivaRK17/iNotebook#readme"
+}
